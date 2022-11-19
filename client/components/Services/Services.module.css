@@ -16,6 +16,19 @@
 }
 
 
+.services>h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
 .servicesItem {
     display: flex;
     flex-wrap: wrap;

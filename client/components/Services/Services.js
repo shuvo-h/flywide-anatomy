@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 import { servicesData } from "../../../data/data";
 import styles from "./Services.module.css";
-
 const Services = () => {
   return (
     <div className={styles.services}>
-      <h2>tour top services</h2>
+      <h2>TRAVIO SPECIALS</h2>
+      <h3>top services</h3>     
       <div className="container">
         <div className="row">
           <div className={styles.servicesItem}>
