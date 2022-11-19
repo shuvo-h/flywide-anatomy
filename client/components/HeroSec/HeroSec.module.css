@@ -1,0 +1,157 @@
+.heroSec {
+    background-image: url(../../../public/HeroSec/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 216px 0px 270px 0px;
+    width: 100%;
+}
+
+
+.heroSec h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.heroSec h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+
+.heroSec p {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+
+.heroSecForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: azure;
+    padding: 20px 0px;
+    margin-top: 80px;
+}
+
+.formItem input {
+    background-color: inherit;
+    border: none;
+}
+
+.formItem i {
+    color: #0a021d;
+}
+
+.formItem input {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0a021d;
+}
+
+.formItem input::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #0a021d;
+}
+
+.formItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #6128e3;
+    background: inherit;
+    gap: 30px;
+    padding: 10px 30px;
+}
+
+.formItem input:focus {
+    border: none !important;
+    background: inherit !important;
+    outline: 0px;
+}
+
+
+.heroSecForm button {
+    background: #6128e3;
+    border: 1px solid #6128e3;
+    display: block;
+    padding: 11px 30px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    z-index: 10;
+}
+
+.heroSecForm button::before,
+.heroSecForm button::after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 0;
+    background-color: #ffb92f;
+    content: "";
+    color: #ffffff;
+}
+
+.heroSecForm button::before {
+    left: 0;
+    color: #ffffff;
+}
+
+.heroSecForm button::after {
+    right: 0;
+    transition: all 0.3s;
+    color: #ffffff;
+}
+
+.heroSecForm button:hover::before {
+    width: 100%;
+    transition: all 0.3s;
+    color: #ffffff;
+}
+
+.heroSecForm button:hover::after {
+    background-color: transparent;
+    width: 100%;
+    color: #ffffff;
+}
+
+.heroSecForm button:hover {
+    color: black;
+    border: 1px solid #ffb92f;
+}
