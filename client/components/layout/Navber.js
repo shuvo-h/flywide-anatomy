@@ -1,10 +1,15 @@
+import Image from 'next/image';
 import React from 'react';
+import logo from "../../../public/logo/travele-logo.png";
 import styles from './layoutStyle.module.css';
 
 const Navber = () => {
     return (
-        <div className={styles.navbar_main }>
+        <div className="container">
             <div className={styles.menu_bar}>
+            <div className={styles.menu_logo}>
+             <Image width="150" height="60" src={logo}/>
+            </div>
           <ul>
             <li>HOME</li>
             <li>DESTINATIONS</li>
