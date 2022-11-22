@@ -1,0 +1,164 @@
+.footer-info {
+    background-color: aqua;
+}
+
+.layout_container {
+    background-color: aqua;
+}
+
+
+
+.footer_info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (max-width:688px) {
+    .footer_info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+.footer_logo span {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.footer_logo span a {
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    margin: 3px;
+}
+
+.logo_img {
+    margin-right: 47px;
+}
+
+.logo_img:hover {
+    background-color: orange;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.footer_logo span a:hover {
+    background-color: rgb(255, 187, 0);
+
+}
+
+.footer_logo div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer_logo p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #aeb1b8;
+    width: 418px;
+}
+
+.footer_service {}
+
+.footer_service h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.service_link {
+    display: grid;
+}
+
+.service_link a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #aeb1b8;
+}
+
+.footer_gallary {
+    margin-left: -151px;
+}
+
+.footer_gallary h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 600;
+    /* margin-top: 48px; */
+
+}
+
+.gallary_img div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 9px;
+    margin-right: 216px;
+}
+
+.gallary_img div image {
+    margin: 5px;
+}
+
+.contact_main h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.contact_main {
+    list-style: none;
+    margin-left: -126px;
+}
+
+.contact_main li {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    color: #aeb1b8;
+    padding-left: 30px;
+    margin-bottom: 19px;
+    margin-left: -26px;
+}
+
+/* navbar  */
+
+.navbar_main {
+    /* background-color: black; */
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu_bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu_bar ul li {
+    width: 120px;
+    padding: 30px 20px 30px 0px;
+}

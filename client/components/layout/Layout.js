@@ -1,19 +1,22 @@
 import React from 'react';
-import Header from "../common/Header"
+import Header from "../common/Header";
+import Footer from './Footer';
+import Navber from './Navber';
+// import layoutStyle from './layoutStyle.css'
 
 const Layout = ({children}) => {
     return (
         <div>
             <Header></Header>
             <header>
-                <h3>Nav bar</h3>
+                <Navber />
             </header>
             <main>
                 {children}
             </main>
             <footer>
-                <h3>Footer</h3>
-            </footer>
+                <Footer />
+            </footer>  
         </div>
     );
 };
