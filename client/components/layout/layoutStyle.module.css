@@ -130,35 +130,172 @@
 
 /* navbar  */
 
-.navbar_main {
-    /* background-color: black; */
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-.menu_bar {
+.navber_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 1px 15px rgb(0 0 0);
+    padding: 0px 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-.menu_logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.navber_header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #333;
 }
-
-.menu_bar ul {
-    display: inline-flex;
+.navber_header .navber ul{
     list-style: none;
-    color: rgb(255, 255, 255);
-    padding: 0px;
-    margin: 0px;
+
+}
+.navber_header .navber ul li{
+    position: relative;
+    float: left;
+}
+.navber_header .navber ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+
+}
+.navber_header .navber ul li a:hover{
+    background-color: #333;
+    color: white;
+}
+.navber_header .navber ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: white;
+    display: none;
+}
+.navber_header .navber ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+}
+.navber_header .navber ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+.navber_header .navber ul li:focus-within > ul ,
+.navber_header .navber ul li:hover > ul {
+    display: initial;
 }
 
-.menu_bar ul li {
-    width: 120px;
-    padding: 30px 20px 30px 0px;
+#manu_bar{
+    display: none;
+}
+.navber_header label{
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+@media(max-width:991px) {
+
+    .navber_header{
+        padding: 20px;
+    }
+    .navber_header label{
+        display: initial;
+    }
+
+    .navber_header .navber{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #ffffff;
+        border-top: 1px solid rgba(0, 0, 0, 1);
+        /* display: none; */
+    }
+
+    .navber_header .navber{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0, 0, 0, 1);
+    }
+
+    .navber_header .navber ul li {
+        width: 100%;
+    }
+    .navber_header .navber ul li ul {
+        position: relative;
+        width: 100%;
+    }
+    .navber_header .navber ul li ul li {
+        background-color: #eee;
+    }
+    .navber_header .navber ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #manu_bar:checked ~ .navber{
+        display: initial !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.search_btn{
+    border: none;
+    border-radius: 233px;
+    background: #f0f2f2;
+    padding: 5px;
+}
+.search_btn:hover{
+    border: none;
+    border-radius: 233px;
+    background:orange;
+    padding: 5px;
+    color: whitesmoke;
+}
+.users_btn{
+    border: none;
+    border-radius: 233px;
+    background: #f0f2f2;
+    padding: 5px;
+    margin-left: 23px;
+}
+.users_btn:hover{
+    border: none;
+    border-radius: 233px;
+    background:orange;
+    padding: 5px;
+    color: whitesmoke;
+}
+.book_a_tour{
+    width: 134px;
+    height: 50px;
+    margin-left:107px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-color: orange;
+}
+.book_a_tour:hover{
+    background-color: #152e4c;
+    
 }
