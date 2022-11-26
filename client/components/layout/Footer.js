@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import logo from "../../../public/imges/logo-3.png";
+import gmail from '../../../public/icons8-envelope-64.png';
+import location from '../../../public/icons8-marker-o-50.png';
+import microphone from '../../../public/icons8-microphone-64.png';
 import img1 from "../../../public/imges/footer-gallery-1.jpg";
 import img2 from "../../../public/imges/footer-gallery-2.jpg";
 import img3 from "../../../public/imges/footer-gallery-4.jpg";
@@ -8,18 +10,15 @@ import img4 from "../../../public/imges/footer-gallery-5.jpg";
 import img5 from "../../../public/imges/footer-gallery-6.jpg";
 import img6 from "../../../public/imges/profile_pic.jpg";
 import facebook from "../../../public/logo icon/icons8-facebook-f-60.png";
+import google from "../../../public/logo icon/icons8-google-plus-50.png";
+import instargram from "../../../public/logo icon/icons8-instagram-50.png";
 import linkedin from "../../../public/logo icon/icons8-linkedin-2-48.png";
 import twitter from "../../../public/logo icon/icons8-twitter-50.png";
-import instargram from "../../../public/logo icon/icons8-instagram-50.png";
-import google from "../../../public/logo icon/icons8-google-plus-50.png";
-import location from '../../../public/icons8-marker-o-50.png';
-import gmail from '../../../public/icons8-envelope-64.png';
-import microphone from '../../../public/icons8-microphone-64.png';
 import styles from "./layoutStyle.module.css";
 
 const Footer = () => {
   return (
-    <div className={styles.footer_main}>
+    <div className="container">
       <div className={styles.footer_info}>
         {/* logo */}
         <div className={styles.footer_logo}>

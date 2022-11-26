@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../common/Header"
+import Header from "../common/Header";
 import Footer from './Footer';
 import Navber from './Navber';
 // import layoutStyle from './layoutStyle.css'
@@ -16,7 +16,7 @@ const Layout = ({children}) => {
             </main>
             <footer>
                 <Footer />
-            </footer>
+            </footer>  
         </div>
     );
 };
