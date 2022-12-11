@@ -1,5 +1,6 @@
 import HeroSec from "../client/components/HeroSec/HeroSec";
 import Layout from "../client/components/layout/LAyout";
+import SpeicalPakage from "../client/components/HomeComponent/SpeicalPakage";
 import PopularDestinations from "../client/components/PopularDestinations/PopularDestinations";
 import AllReviews from "../client/components/Reviews&Testimonials/Reviews&Testimonials";
 import Services from "../client/components/Services/Services";
@@ -12,6 +13,7 @@ export default function Home() {
         <Services />
         <PopularDestinations />
         <StateSction />
+        <SpeicalPakage />
         <AllReviews />
       </div>
     </Layout>

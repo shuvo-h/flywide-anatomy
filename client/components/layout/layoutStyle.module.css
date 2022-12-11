@@ -3,9 +3,11 @@
 }
 
 .layout_container {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
-
+.footer_main{
+    background-color: #333;
+}
 
 
 .footer_info {

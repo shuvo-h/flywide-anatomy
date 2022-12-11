@@ -19,6 +19,7 @@ import styles from "./layoutStyle.module.css";
 const Footer = () => {
   return (
     <div className="container">
+      <div className={styles.footer_main}>
       <div className={styles.footer_info}>
         {/* logo */}
         <div className={styles.footer_logo}>
@@ -154,6 +155,7 @@ const Footer = () => {
           </li>
          
         </div>
+      </div>
       </div>
     </div>
   );
